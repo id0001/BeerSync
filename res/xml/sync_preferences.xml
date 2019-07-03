@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/account_settings" >
+        <Preference
+            android:key="settings.account.delete"
+            android:title="@string/remove_account" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sync_settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings.sync.wifionly"
+            android:title="@string/wifi_only_sync" />
+
+        <ListPreference
+            android:defaultValue="43200"
+            android:entries="@array/interval_list"
+            android:entryValues="@array/interval_list_values"
+            android:key="settings.sync.interval"
+            android:title="@string/sync_interval" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="About" >
+        <Preference
+            android:enabled="false"
+            android:selectable="false"
+            android:title="Powered by Untappd" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

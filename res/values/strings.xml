@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeerSync</string>
+    <string name="abv">ABV:</string>
+    <string name="by">by</string>
+    <string name="ibu">IBU:</string>
+    <string name="account_title">BeerSync</string>
+    <string name="style">Style:</string>
+    <string name="your_rating">Your rating:</string>
+    <string name="last_had">Last had:</string>
+    <string name="beer_filter_hint">Enter search term</string>
+    <string name="create_account_dialog_title">Login</string>
+    <string name="create_account_dialog_message">This app requires an Untappd account.\nDo you want to sign in?</string>
+    <string name="login_activity_title">Login</string>
+    <string name="single_account_message">You can only have one account. Please delete your existing account before making a new one.</string>
+    <string name="retrieving_authtoken">Retrieving auth-token...</string>
+    <string name="retrieving_user_information">Retrieving user information...</string>
+    <string name="create_account_failed">Failed to create account.</string>
+    <string name="create_account_success">Account created.</string>
+    <string name="provider_name">Distinct beers</string>
+    <string name="sync_settings">Sync settings</string>
+    <string name="wifi_only_sync">Sync via wifi only</string>
+    <string name="general_settings">General settings</string>
+    <string name="account_preference_summary">Manage how the app syncs your data</string>
+    <string name="account_settings">Account settings</string>
+    <string name="remove_account">Remove account</string>
+    <string name="no_account_toast">There is no account.</string>
+    <string name="remove_account_confirmation">Are you sure you want to remove your account?</string>
+    <string name="remove_account_failed">Unable to remove account.</string>
+    <string name="remove_account_success">Account removed.</string>
+    <string name="sync_interval">Sync interval</string>
+    <string name="settings">Settings</string>
+    <string name="sync_in_progress">Synchronizing data.\nIt is not necessary to keep the app open.</string>
+    <string name="empty_list">List is empty</string>
+    <string name="all_tab_title">All</string>
+    <string name="brewery_tab_title">Group by brewery</string>
+    <string name="style_tab_title">Group by style</string>
+    <string name="rating_tab_title">Group by rating</string>
+    <string name="text_overall_rating">Community rating:</string>
+    <string name="text_description">Description:</string>
+    <string name="text_checkin_comment">Checkin comment:</string>
+    <string name="load_checkin_details">Loading checkin details...</string>
+    <string name="no_description">There is no description for this beer.</string>
+    <string name="no_checkin_comment">You have not entered any comment about this checkin.</string>
+    <string name="error_title">An error occurred</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_name">by name</string>
+    <string name="sort_by_last_had">by last had</string>
+    <string name="sort_by_rating">by rating</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/general_settings" />
+
+    <PreferenceScreen
+        android:key="account_settings"
+        android:summary="@string/account_preference_summary"
+        android:title="@string/account_settings" >
+        <intent
+            android:action="nl.yspierings.beersync.ACCOUNT_SETUP"
+            android:targetClass="nl.yspierings.beersync.activities.SettingsActivity"
+            android:targetPackage="nl.yspierings.beersync" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

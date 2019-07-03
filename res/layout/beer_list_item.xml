@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_default"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/fontsize_large" />
+
+    <TextView
+        android:id="@+id/text_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text1"
+        android:layout_below="@+id/text1"
+        android:text="@string/by"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_by"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_default"
+        android:background="#B8B8B8" />
+
+    <TextView
+        android:id="@+id/label_ibu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label_abv"
+        android:layout_below="@+id/label_abv"
+        android:text="@string/ibu"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text1"
+        android:layout_below="@id/line1"
+        android:text="@string/style"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label_abv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label_style"
+        android:layout_below="@+id/label_style"
+        android:text="@string/abv"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_ibu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_ibu"
+        android:layout_alignBottom="@+id/label_ibu"
+        android:layout_alignLeft="@+id/text_style"
+        android:text="TextView"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default" />
+
+    <TextView
+        android:id="@+id/text_abv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_abv"
+        android:layout_alignBottom="@+id/label_abv"
+        android:layout_alignLeft="@+id/text_style"
+        android:text="TextView"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default" />
+
+    <TextView
+        android:id="@+id/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_style"
+        android:layout_alignBottom="@+id/label_style"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_toRightOf="@+id/label_style"
+        android:text="TextView"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default" />
+
+    <TextView
+        android:id="@+id/label_your_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label_ibu"
+        android:layout_below="@id/label_ibu"
+        android:text="@string/your_rating"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/beer_rating"
+        style="@style/untappdRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/label_your_rating"
+        android:layout_toRightOf="@+id/label_your_rating"
+        android:isIndicator="true" />
+
+    <TextView
+        android:id="@+id/label_last_had"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/label_ibu"
+        android:layout_alignRight="@+id/text_last_had"
+        android:inputType="text"
+        android:text="@string/last_had"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_last_had"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/label_your_rating"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_default"
+        android:text="TextView"
+        android:textColor="@color/secundaryText"
+        android:textSize="@dimen/fontsize_default" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@id/label_your_rating" />
+
+</RelativeLayout>

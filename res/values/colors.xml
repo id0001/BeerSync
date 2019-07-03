@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryText">#000</color>
+    <color name="secundaryText">#333</color>
+    <color name="loginFormBackground">#D4D4D4</color>
+    <color name="altPrimaryText">#FFF</color>
+    <color name="listEvenBackground">#D8D8D8</color>
+    <color name="listOddBackground">#C1C1C1</color>
+    <color name="headerBackground">#919191</color>
+
+</resources>
