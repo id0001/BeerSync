@@ -4,7 +4,7 @@ BeerSync is an app that will download your list of unique beerst from Untappd an
 
 It also provides a quick search function, sorting and grouping.
 
-## Disclamer
+## Disclaimer
 This repository is not complete. It misses a couple of dependencies which I could not find anymore and therefore I am unable to build the app without significant changes.
 
 It has also been removed from the PlayStore by me because of this reason.
